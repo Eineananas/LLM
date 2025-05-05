@@ -3,6 +3,9 @@ from modelscope import snapshot_download
 import os
 # Download the specific Llama model
 model_dir = snapshot_download('deepseek-ai/DeepSeek-R1-Distill-Qwen-7B',cache_dir='/root/autodl-tmp',revision='master')
+# Deepseek
+model_dir = snapshot_download('LLM-Research/Meta-Llama-3-8B-Instruct',cache_dir='/root/autodl-tmp',revision='master')
+# Llama
 # You can also download at a specific directory manually
 # The cache_dir need to be consistant with the deployment code
 
