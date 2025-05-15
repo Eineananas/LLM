@@ -72,7 +72,7 @@ Some more important instructions:
 https://blog.csdn.net/LeviLizhi/article/details/142451228  
 
 sinfo  
-# to know the idle GPU Server
+to know the idle GPU Server
 PARTITION AVAIL  TIMELIMIT  NODES  STATE NODELIST  
 rtx4090*     up   infinite      1    mix gpu04  
 rtx4090*     up   infinite      1   idle gpu03  
